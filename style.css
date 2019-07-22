@@ -1,0 +1,102 @@
+.logo {
+  margin-top: 15px;
+  width: 10%;
+  position: relative;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+@media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 10%;
+      position: relative;
+    }
+  }
+  
+  #services {
+    display: flex;
+  }
+
+  .service-column {
+    flex: 1;
+  }
+  
+  #nav-bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+  }
+
+  #nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-bar ul li {
+    float: left;
+  }
+
+  .nav-link {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    margin-top: 30px;
+  }
+
+  #pricing {
+    
+    display: flex;
+  
+}
+
+  .product {
+    
+      flex: 1;
+      text-align: center;
+    
+  }
+
+  .features {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+  }
+
+  .features li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .level {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
